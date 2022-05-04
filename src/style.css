@@ -1,0 +1,18 @@
+.Navbar {
+    margin: auto;
+    max-width: 60%;
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+}
+.Navbar img{
+    padding: 1rem 0.6rem;
+}
+.Navbar p{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.Navbar span{
+    color: rgb(65, 13, 24);
+    font-weight: 500;
+}
