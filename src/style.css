@@ -1,6 +1,11 @@
+.App{
+    margin: auto;
+    width: 60%;
+    background-color: rgba(214, 61, 61, 0.281);
+}
 .Navbar {
     margin: auto;
-    max-width: 60%;
+    max-width: 100%;
     background-color: #F55A5A;
     display: flex;
     justify-content: center;
@@ -15,4 +20,42 @@
 .Navbar span{
     color: rgb(65, 13, 24);
     font-weight: 500;
+}
+.Card {
+    display: flex;
+    padding: 1.5rem 3rem;
+    /* height: 150px; */
+}
+.Card .imgDiv{
+    margin-right: 1.5rem;
+}
+.Card .imgDiv img{
+    height: 200px;
+}
+.firstLine{
+    display: flex;
+    align-items: center;
+}
+.firstLine img{
+    height: 15px;
+    padding-right: 0.5rem;
+}
+.firstLine p{
+    font-size: 13px;
+}
+.allThings h1{
+    margin-top: -0.9rem;
+} 
+.allThings .date{
+    margin-bottom: -0.8rem;
+    font-weight: 500;
+    font-weight: 400;
+}
+.allThings .about{
+    width: 450px;
+    font-size: 12px;
+    margin-top: 25px;
+}
+.Card .placeName{
+    letter-spacing: 1px;
 }
